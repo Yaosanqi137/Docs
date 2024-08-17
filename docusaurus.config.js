@@ -6,21 +6,21 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Wiki-Template',
-  tagline: 'Docusaurus 插件文档模板',
+  title: 'yao37の文档',
+  tagline: 'yao37の文档',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
   url: 'https://postyizhan.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/Wiki-Template/',
+  baseUrl: '/Docs/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'postyizhan', // Usually your GitHub org/user name.
-  projectName: 'Wiki-Template', // Usually your repo name.
-  deploymentBranch: 'gh-pages',
+  organizationName: 'Yaosanqi137', // Usually your GitHub org/user name.
+  projectName: 'Docs', // Usually your repo name.
+  deploymentBranch: 'main',
   trailingSlash: false,
 
   onBrokenLinks: 'throw',
@@ -43,7 +43,7 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           routeBasePath: '/',
           editUrl:
-            'https://github.com/postyizhan/Wiki-Template/blob/main'
+            'https://github.com/Yaosanqi137/Docs/blob/main'
         },
         blog: false,
         theme: {
@@ -102,20 +102,11 @@ const config = {
             ],
           },
           {
-            title: '交流',
-            items: [
-              {
-                label: 'QQ群',
-                href: 'https://qm.qq.com/q/dENGavSflK',
-              },
-            ],
-          },
-          {
             title: '文档仓库',
             items: [
               {
                 label: 'GitHub',
-                href: 'https://github.com/postyizhan/Wiki-Template',
+                href: 'https://github.com/Yaosanqi137/Docs',
               },
             ],
           },
