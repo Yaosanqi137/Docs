@@ -31,7 +31,7 @@ const config = {
   // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'zh-Hans',
-    locales: ['zh-Hans', 'en'],
+    locales: ['zh-Hans'],
   },
 
   presets: [
@@ -78,7 +78,7 @@ const config = {
             position: 'right',
           },
           {
-            href: 'https://github.com/postyizhan/Wiki-Template',
+            href: 'https://github.com/yaosanqi137/docs',
             label: 'GitHub',
             position: 'right',
           },
@@ -130,7 +130,7 @@ const config = {
         require.resolve("@easyops-cn/docusaurus-search-local"),
         {
           hashed: true,
-          language: ["en", "zh"],
+          language: ["zh"],
           highlightSearchTermsOnTargetPage: true,
           explicitSearchResultPath: true,
           indexBlog: false,
